@@ -1,4 +1,4 @@
-# PySpark_Streaming_App
+# Spark streaming application - fire hotspots and weather data 
 
 This Spark streaming application processes fire hotspots data and weather data from 3 Kafka producers every 10 seconds, 
 apply geo-hashing algorithm to evaluate location of hotspots, store locations of hotspots with the same geohash and weather details together, and finally write results to MongoDB. 
@@ -11,3 +11,4 @@ apply geo-hashing algorithm to evaluate location of hotspots, store locations of
 4.  time
 5.  json
 6.  os
+7.  sys
